@@ -30,7 +30,7 @@ namespace EmptyProject
                 }
                 else
                 {
-                    if (dict.ContainsKey(getSecond)) // doesnt work
+                    if (dict.ContainsKey(getSecond)) 
                     {
                         dict[getFirst] = dict[getSecond];
                     }
